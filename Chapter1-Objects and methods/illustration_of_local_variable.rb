@@ -1,6 +1,5 @@
 #A local variable is only visible in a limited part of the program.
 
-
 def say_goodbye
   x = "Good Bye"
   puts x
