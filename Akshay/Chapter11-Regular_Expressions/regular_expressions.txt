@@ -1,0 +1,18 @@
+Table 11.1. Regular expression anchors
+
+Notation
+	
+
+Description
+	
+
+Example
+	
+
+Sample matching string
+^ 	Beginning of line 	/^\s*#/ 	" # A Ruby comment line with leading spaces"
+$ 	End of line 	/\.$/ 	"one\ntwo\nthree.\nfour"
+\A 	Beginning of string 	/\AFour score/ 	"Four score"
+\z 	End of string 	/from the earth.\z/ 	"from the earth."
+\Z 	End of string (except for final newline) 	/from the earth.\Z/ 	"from the earth\n"
+\b 	Word boundary 	/\b\w+\b/ 	"!!!word***" (matches “word”)
